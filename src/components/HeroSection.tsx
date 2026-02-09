@@ -46,8 +46,10 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
+          <img src={logo} alt="Toly Mubarak logo" className="w-20 h-20 md:w-28 md:h-28 rounded-full mx-auto mb-4 glow-gold" />
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-primary-foreground mb-4 leading-tight">
             🌙 TOLY MUBARAK 🪙
+          </h1>
           </h1>
           <p className="text-lg md:text-xl text-gold-glow font-body font-medium tracking-wide mb-6">
             Fast in tech. Strong in community. Blessed in gains.
